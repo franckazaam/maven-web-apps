@@ -83,6 +83,14 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
+		<servers>
+                <!-- This server.id matches my nexus group -->
+			
+                <server>
+                <id>nexus-group</id>
+                <username>jenkins</username>
+                <password>admin123</password>
+                </server>
 
  		<dependency>
 			<groupId>javax.servlet</groupId>
